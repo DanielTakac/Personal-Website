@@ -73,28 +73,24 @@ body{
 
 #games-div{
     background-color: white;
-    height: 1000px;
+    height: 3400px;
 }
 
 #games-div > h2{
     color: #00c3ff;
     text-align: center;
     margin-top: 50px;
-    font-size: 50px;
+    font-size: 60px;
     letter-spacing: 2px;
+    margin-bottom: 80px;
 }
 
 .game{
-    border: 2px solid palevioletred;
     margin: auto;
     width: 25%;
     height: 550px;
     padding: 10px;
     margin-bottom: 50px;
-}
-
-.game > img{
-    
 }
 
 .game > h3{
@@ -125,4 +121,44 @@ body{
     color: white;
     margin-left: auto;
     margin-right: auto;
+}
+
+#contact-div{
+    background-color: #f0f0f0;
+    height: 500px;
+    margin-top: -25px;
+    margin-bottom: -25px;
+    padding: 30px;
+}
+
+#contact{
+    border: 3px solid palevioletred;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#footer{
+    background-color: white;
+    height: 160px;
+}
+
+#footer-list{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    padding: 35px;
+}
+
+#footer-list > li{
+    margin-right: 20px;
+}
+
+#copyright{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    margin-top: -25px;
+    color: rgb(80, 80, 80);
+    margin-left: -5px;
 }
