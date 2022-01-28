@@ -125,17 +125,60 @@ body{
 
 #contact-div{
     background-color: #f0f0f0;
-    height: 500px;
+    height: 800px;
     margin-top: -25px;
     margin-bottom: -25px;
     padding: 30px;
 }
 
 #contact{
-    border: 3px solid palevioletred;
     margin: auto;
     width: 50%;
+}
+
+#contact > h4{
+    font-size: 45px;
+    font-weight: 800;
     text-align: center;
+}
+
+#contact > label{
+    text-align: left;
+    font-size: 20px;
+}
+
+#contact > input{
+    text-align: left;
+    width: 100%;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    height: 40px;
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+#contact-message{
+    text-align: left;
+    width: 100%;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    height: 150px;
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+#contact > button{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+
+#contact > button:hover{
+    background-color: #525252;
 }
 
 #footer{
@@ -152,6 +195,11 @@ body{
 
 #footer-list > li{
     margin-right: 20px;
+}
+
+#footer-list > li > a{
+    text-decoration: none;
+    color: black;
 }
 
 #copyright{
