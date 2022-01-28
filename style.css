@@ -123,6 +123,16 @@ body{
     margin-right: auto;
 }
 
+.game > .game-download:hover{
+    background-color: #2cdce9;
+    border: 2px solid #00c3ff;
+}
+
+.game > .game-download > a{
+    text-decoration: none;
+    color: white;
+}
+
 #contact-div{
     background-color: #f0f0f0;
     height: 800px;
